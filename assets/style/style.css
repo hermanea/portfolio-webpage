@@ -5,18 +5,38 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-padding-top: 20vh;
+ }
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: #ADD8E6;
+    
 }
 
 #header {
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     display: flex;
     text-align: center;
     justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px slategray;
+
+}
+
+header nav {
+    display: flex;
+    align-self: flex-end;
+}
+
+header a {
+    
+}
+
+#banner-image {
 
 }
 
@@ -27,7 +47,7 @@ main {
     flex-direction: column;
 }
 
-.container {
+.row-container {
     display: flex;
 }
 
@@ -40,52 +60,110 @@ main {
 }
 
 #about-heading {
+    padding: 2%;
     width: 25%;
+    text-align: right;
+    border-right: 10px slategray;
 
 }
 
 #about-body {
+    padding: 2%;
     width: 75%;
 
 }
 
+#about-body p {
+    text-align: center;
+}
+
 #work-heading{
+    padding: 2%;
     width: 25%;
+    text-align: right;
+    border-right: 10px slategray;
 
 }
 
 #work-body {
+    padding: 2%;
     width: 75%;
 
 }
 
 #contact-heading {
+    padding: 2%;
     width: 25%;
+    text-align: right;
+    border-right: 10px slategray;
 
 }
 
 #contact-body {
+    padding: 2%;
     width: 75%;
 
 }
 
-.card-01 {
+#card-01 {
     position: relative;
-    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+    overflow: hidden;
 
 }
 
-.card-02 {
+.card-01-title {
+    position: absolute;
+    text align: left;
+    bottom: 15%;
+    font-size: 75%;
+    padding: 5px
+}
+
+#card-02 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card-02 .card {
+    width: 39%;
+    height: 40%;
+    margin: 1%;
     position: relative;
-    width: 45%;
+}
+
+.card .card-img {
+    opacity: 80%;
+}
+
+.card-title {
+    position: absolute;
+    text align: left;
+    bottom: 15%;
+    font-size: 75%;
+    padding: 5px
 
 }
+
+.card {
+    overflow: hidden;
+}
+
 
 .card-01 img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
     
 
 }
 
-.card-02 img {
+.card img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 
 }
