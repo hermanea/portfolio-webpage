@@ -26,6 +26,7 @@ main {
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     
 
@@ -34,11 +35,15 @@ main {
 }
 
 #aboutmeheader, #myworkheader, #contactmeheader {
-    display: flex-end;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 25%;
 
+}
+
+h2 {
+    display: flex-end;
 }
 
 p {
@@ -55,19 +60,32 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     
 }
 
 
 .largecard {
-    object-fit: fill;
     border: 9px solid black;
+    position: relative;
+}
+
+.largecard img {
+    object-fit: fill;
+    max-height: 30vh;
+    
 }
 
 .littlecard {
-    object-fit: fill;
     border: 9px solid black;
+    position: relative;
 }
+
+.littlecard img {
+    object-fit: fill;
+    max-height: 30vh;
+}
+
 
 
 footer {
