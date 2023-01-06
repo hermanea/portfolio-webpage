@@ -1,18 +1,64 @@
 
 header {
+    display: flex;
+    height: 15vh;
+    background-color: blueviolet;
+    
 
 }
 
 header nav {
+    display: flex;
+    align-self: flex-end;
 
 }
+
+h1
+
 
 
 main {
 
 }
 
-footer {
+.row {
+    display: flex;
+    
+
+
 
 }
 
+#aboutmeheader {
+
+}
+
+#myworkheader {
+
+}
+
+#contactmeheader {
+
+}
+
+footer {
+    display: flex;
+    background-color: blueviolet;
+    height: 8vh;
+
+}
+
+.largecard {
+
+}
+
+.littlecard {
+
+}
+
+#banner {
+    display: flex;
+    height: 30vh;
+
+
+}
