@@ -10,55 +10,69 @@ header {
 header nav {
     display: flex;
     align-self: flex-end;
-
+    
 }
 
-h1
-
-
-
 main {
+    
+}
 
+#banner {
+    display: flex;
+    height: 30vh;
+    object-fit: cover; 
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     
 
 
 
 }
 
-#aboutmeheader {
+#aboutmeheader, #myworkheader, #contactmeheader {
+    display: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
 
 }
 
-#myworkheader {
-
+p {
+    
 }
 
-#contactmeheader {
-
+.content {
+    width: 75%;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
+
+.flexcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.largecard {
+    object-fit: fill;
+    border: 9px solid black;
+}
+
+.littlecard {
+    object-fit: fill;
+    border: 9px solid black;
+}
+
 
 footer {
     display: flex;
     background-color: blueviolet;
     height: 8vh;
-
-}
-
-.largecard {
-
-}
-
-.littlecard {
-
-}
-
-#banner {
-    display: flex;
-    height: 30vh;
-
 
 }
