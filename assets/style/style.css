@@ -3,76 +3,98 @@ header {
     display: flex;
     height: 15vh;
     background-color: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
     
 
 }
 
-header nav {
+h1 {
     display: flex;
-    align-self: flex-end;
+    align-items: flex-start;
+}
+
+header nav {
+
     
 }
 
 main {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 #banner {
     display: flex;
-    height: 30vh;
-    object-fit: cover; 
+    height: 25vh;
+    object-fit: contain; 
 }
 
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
-    
+    height: 25vh;
+} */
 
-
-
-}
-
-#aboutmeheader, #myworkheader, #contactmeheader {
+.aboutmeheader, .myworkheader, .contactmeheader {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 25%;
 
 }
 
+
 h2 {
-    display: flex-end;
+    display: flex;
+    align-items: flex-end;
 }
 
 p {
     
 }
 
-.content {
-    width: 75%;
-    flex-wrap: wrap;
-    flex-direction: column;
+.contenttitle {
+
 }
+
+/* .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+} */
 
 .flexcards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 75%;
     
 }
-
 
 .largecard {
     border: 9px solid black;
     position: relative;
+    /* max-height: 10vh;
+    max-width: 70vw; */
+    /* object-fit: contain; */
 }
 
 .largecard img {
-    object-fit: fill;
-    max-height: 30vh;
+    /* height: auto;
+    width: auto; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* object-fit: scale-down; */
+    /* max-height: 10vh;
+    max-width: 30vw; */
     
 }
 
@@ -82,8 +104,9 @@ p {
 }
 
 .littlecard img {
-    object-fit: fill;
-    max-height: 30vh;
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
