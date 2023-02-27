@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was aimed to flex my newly learned HTML and CSS skills and apply some unique traits to elements in the webpage.
+With this project I aimed to flex my newly learned HTML and CSS skills and apply some unique traits to elements in the webpage. This is a portfolio of some of my first work as a web developer.
 
 ## Installation
 
@@ -10,13 +10,11 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The site is fairly simple. You may click several of the links that will take you to some of my projects.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Below is a screenshot of the app.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+You may view the application here.
 
 ## Credits
 
