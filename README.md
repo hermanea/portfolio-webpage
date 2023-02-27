@@ -1,4 +1,4 @@
-# portfolio-webpage-challenge02
+# Portfolio Webpage
 
 ## Description
 
@@ -12,9 +12,9 @@ N/A
 
 The site is fairly simple. You may click several of the links that will take you to some of my projects.
 
-Below is a screenshot of the app.
+![Screenshot](/assets/images/screencapture-hermanea-github-io-portfolio-webpage-challenge02-2023-02-27-15_32_11.png "App Screenshot")
 
-You may view the application here.
+You can use the app [Here](https://hermanea.github.io/portfolio-webpage-challenge02/).
 
 ## Credits
 
